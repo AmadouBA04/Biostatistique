@@ -15,7 +15,7 @@ from tensorflow.keras.layers import Dense
 
 # 🔹 Fonction pour charger les données
 def load_data():
-    file_path = r"C:\Users\AMADOUBA\Desktop\Master2 SID\Biostatistique\Projet_GitHub\Donnnées_Projet_M2SID2023_2024_préparées.xlsx"
+    file_path = r"C:\Users\AMADOUBA\Desktop\Master2 SID\Biostatistique\Donnnées_Projet_M2SID2023_2024_préparées.xlsx"
     df = pd.read_excel(file_path, engine="openpyxl")
     return df
 
